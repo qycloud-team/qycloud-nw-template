@@ -1,0 +1,16 @@
+{
+  "name": "Frameless Window",
+  "description": "Chrome platform app.",
+  "version": "0.1",
+  "main": "app://localhost/login.html",
+  "window": {
+    "show": false,
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 635,
+    "height": 360,
+    "min_width": 635,
+    "min_height": 360
+  }
+}

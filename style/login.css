@@ -1,0 +1,14 @@
+.container {
+  height: 330px;
+  background-color: #0099FF;
+}
+.login-form.form-horizontal {
+  height: 300px;
+  background-color: #ffffff;
+}
+.login-form.form-horizontal .form-group {
+  margin-left: 10px;
+}
+.login-form.form-horizontal .form-group input.form-control {
+  width: 220px;
+}

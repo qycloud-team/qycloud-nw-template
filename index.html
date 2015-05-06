@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>燕麦企业云盘</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="企业云盘, 企业云, 云盘, 存储">
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="lib/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/3.3.4/css/bootstrap.min.css"/>
+
+    <script type="text/javascript" src="lib/commons/lodash/3.8.0/modern/lodash.js"></script>
+    <script type="text/javascript" src="lib/jquery/2.1.4/jquery.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/angular/1.3.12/angular-debug.js"></script>
+    <script type="text/javascript" src="lib/angular/plugins/ng-storage/ng-storage.js"></script>
+    <script type="text/javascript" src="lib/angular/plugins/ui-router/ui-router.js"></script>
+    <script src="app/titlebar.js"></script>
+</head>
+<body>
+<div id="top-titlebar" class="top-titlebar">
+    <div class="top-titlebar-icon">
+        <img src="image/top-titlebar.png" alt="top-titlebar"/>
+    </div>
+    <div class="top-titlebar-text">
+        燕麦企业云盘
+    </div>
+    <div class="top-titlebar-close-button">
+        <i class="fa fa-minus color-white"></i>
+        <i class="fa fa-times color-white"></i>
+    </div>
+</div>
+<div id="content">
+    <div id="inner-content">
+        Select the titlebar to enable:<br/>
+        <input type="checkbox" id="top-box">Top Titlebar
+        <br/>
+        <input type="checkbox" id="bottom-box">Bottom Titlebar
+        <br/>
+        <input type="checkbox" id="left-box">Left Titlebar
+        <br/>
+        <input type="checkbox" id="right-box">Right Titlebar
+        <br/>
+        <br/>
+        <button id="close-window-button">Close Window</button>
+
+    </div>
+
+</div>
+<div id="bottom-titlebar" class="bottom-titlebar">
+    <div class="bottom-titlebar-icon">
+        <img src="image/bottom-titlebar.png" alt="bottom-titlebar"/>
+    </div>
+    <div class="bottom-titlebar-text">
+        bottom titlebar
+    </div>
+</div>
+</body>
+
+</html>
